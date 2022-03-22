@@ -1,6 +1,5 @@
 body {
-    background: url("img/DSC_0445.jpg");
-    /*background-color: white;*/
+    background: url("img/DSC_0445.jpeg");
     background-size: cover;
 
 }
@@ -26,8 +25,8 @@ body {
     margin: 0 auto;
     padding: 0;
     position: absolute;
-    top: 460px;
-    left: 70px;
+    top: 350px;
+    left: 80px;
     text-shadow: 2px 2px 1px orangered;
 }
 
@@ -40,12 +39,12 @@ body {
     margin: 0 auto;
     padding: 0;
     position: absolute;
-    top: 130px;
-    left: 40px;
+    top: 40px;
+    left: 50px;
     text-shadow: 2px 2px 1px orangered;
 }
 
-.imagen:hover {filter: grayscale(80%);}
+/*.imagen:hover {filter: grayscale(80%);}*/
 
 .imagen{
     position: absolute;
@@ -64,8 +63,8 @@ body {
     margin: 0 auto;
     padding: 0;
     position: absolute;
-    top: 500px;
-    left: 100px;
+    top: 390px;
+    left: 110px;
     text-shadow: 2px 2px 1px orangered;
 }
 
@@ -82,10 +81,30 @@ body {
 .fecha{
     background-color: black;
     position: absolute;
-    top: 2090px;
+    top: 2203px;
     right: 50px;
     width: 750px;
     height: 380px;
+}
+
+.numbers-fech{
+    margin: 35px;
+    color: white;
+    padding-left: 20px;
+}
+
+.fecha-text{
+    color: white;
+    margin: 10px;
+}
+
+.img-end{
+    height: 250px;
+    width: 360px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    border-radius: 1px;
 }
 
 .title5{
@@ -97,7 +116,7 @@ body {
     padding: 0;
     position: absolute;
     top: 1420px;
-    left: 120px;
+    left: 125px;
     text-shadow: 2px 4px 1px orangered;
 }
 
@@ -189,7 +208,7 @@ body {
 
 .video-container{
     display: block;
-    padding-top: 10%;
+    padding-top: 4%;
     padding-left: 12%;
     margin: 1%;
     align-content: center;
@@ -201,8 +220,8 @@ body {
     height:300px;
     border-radius:150px;
     position: absolute;
-    top: 160px;
-    left: 50px;
+    top: 70px;
+    left: 60px;
     box-shadow: 2px 5px 10px black;
 
 }
